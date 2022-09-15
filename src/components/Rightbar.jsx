@@ -3,7 +3,7 @@ import React from 'react'
 
 const Rightbar = () => {
   return (
-    <Box bgcolor="red" flex={2} padding={2}>Rightbar</Box>
+    <Box bgcolor="red" flex={2} padding={2} sx={{ display :{xs: "none",sm:"block"}}}>Rightbar</Box>
   )
 }
 

@@ -18,11 +18,11 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 const Post = () => {
   return (
     <div>
-         <Card >
+         <Card sx={{margin:5}}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-            R
+            AK
           </Avatar>
         }
         action={
@@ -30,8 +30,8 @@ const Post = () => {
             <MoreVertIcon />
           </IconButton>
         }
-        title="Shrimp and Chorizo Paella"
-        subheader="September 14, 2016"
+        title="Anand Kushwaha"
+        subheader="September 16, 2022"
       />
       <CardMedia
         component="img"

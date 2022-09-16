@@ -1,4 +1,4 @@
-import { Box, List, ListItem, ListItemButton, ListItemIcon, ListItemText } from '@mui/material'
+import { Box, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Switch } from '@mui/material'
 import React from 'react'
 import HomeIcon from '@mui/icons-material/Home';
 import SubjectIcon from '@mui/icons-material/Subject';
@@ -7,6 +7,9 @@ import StorefrontIcon from '@mui/icons-material/Storefront';
 import PeopleIcon from '@mui/icons-material/People';
 import SettingsIcon from '@mui/icons-material/Settings';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
+import ModeNightIcon from '@mui/icons-material/ModeNight';
+const label = { inputProps: { 'aria-label': 'Switch demo' } };
+
 const Sidebar = () => {
   return (
     <Box  flex={1} padding={2} sx={{ display :{xs: "none",sm:"block"}}} >
@@ -65,6 +68,14 @@ const Sidebar = () => {
                 <AccountBoxIcon/>
               </ListItemIcon>
               <ListItemText primary="Profile"/>
+            </ListItemButton>
+          </ListItem>
+          <ListItem disablePadding>
+            <ListItemButton component="a" href="#moonlight">
+              <ListItemIcon>
+                <ModeNightIcon/>
+              </ListItemIcon>
+              <Switch {...label} defaultChecked />
             </ListItemButton>
           </ListItem>
           </List>

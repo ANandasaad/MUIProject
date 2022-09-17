@@ -59,7 +59,7 @@ const Rightbar = () => {
                 <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
                     <ListItem alignItems="flex-start">
                         <ListItemAvatar>
-                            <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+                            <Avatar alt="Remy Sharp" src="https://images.pexels.com/photos/13135852/pexels-photo-13135852.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" />
                         </ListItemAvatar>
                         <ListItemText
                             primary="Brunch this weekend?"
@@ -81,7 +81,7 @@ const Rightbar = () => {
                     <Divider variant="inset" component="li" />
                     <ListItem alignItems="flex-start">
                         <ListItemAvatar>
-                            <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />
+                            <Avatar alt="Travis Howard" src="https://images.pexels.com/photos/2050994/pexels-photo-2050994.jpeg?auto=compress&cs=tinysrgb&w=600" />
                         </ListItemAvatar>
                         <ListItemText
                             primary="Summer BBQ"
